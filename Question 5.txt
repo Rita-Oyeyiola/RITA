@@ -1,0 +1,39 @@
+Commit in Git represent a snapshot of your code at a specific point in time. It includes change made to files and a commit
+message describing the purpose of the changes.
+
+In Git, a commit is a fundamental operation that records a snapshot of the changes made to a repository. 
+Each commit encapsulates a set of changes to files, along with metadata that provides context and history for those changes.
+    Here's what information a commit in Git includes:
+
+    Snapshot of Changes: A commit captures a snapshot of the changes made to the files in the repository at a specific point in time. It includes the content of all the files that were modified, added, or deleted in that commit.
+
+
+    Unique Hash: Git generates a unique hash (commit hash or commit ID) based on the contents of the commit and its metadata. This hash is used to identify the commit and ensure its integrity.
+
+
+    Author Information: Each commit records the author's name and email address. This identifies who made the changes in the commit.
+
+
+    Committer Information: The committer's name and email address are also recorded. The committer might be different from the author in cases where someone else applies the changes on behalf of the author.
+
+
+    Timestamp: The commit includes a timestamp indicating when the commit was made. This helps establish the chronological order of commits.
+
+
+    Commit Message: A commit message is a brief description of the changes made in the commit. It provides context and helps others understand the purpose of the changes.
+
+
+    Parent Commits: Commits in Git form a commit history by linking to their parent commits. Most commits have a single parent (the previous commit), but merge commits have multiple parents (the commits being merged).
+
+
+    Tree Object: Each commit points to a tree object, which represents the directory structure and contents of the repository at the time of the commit. The tree object is essentially a snapshot of the project's state.
+
+
+    Metadata: Git internally maintains metadata related to the commit, such as the cryptographic hash of the previous commit (parent commit), the commit message, author and committer information, and more.
+
+
+    References: Commits are organized into branches and other Git references (like tags). A commit usually belongs to a specific branch and is identified by the reference pointing to it.
+
+
+	These pieces of information collectively create a rich history of changes in a Git repository. 
+   Commits are the building blocks of version control, enabling developers to track changes, collaborate, and manage their codebase effectively.

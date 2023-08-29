@@ -1,0 +1,49 @@
+	Git Repository is a collection of files and their complete history stored in directory. It contains all the 
+    version of your code base.
+
+
+    Git stores and manages versions of files using a distributed version control system. 
+    It does this through a combination of data structures and algorithms that efficiently track changes, 
+    store snapshots of files, and allow collaboration among multiple contributors. Here's an overview of how Git works:
+
+    Repository: A Git repository is a directory that contains all the files, metadata, and history of a project.
+		 It can exist locally on a developer's machine or remotely on a server.
+
+    Snapshots, Not Changes: Unlike some version control systems that store changes to files, Git stores snapshots 
+			    of the entire project's state at different points in time. Each snapshot represents the
+ 			    complete set of files in the project.
+
+    Commits: A commit is a snapshot of the project at a specific point in time. Each commit has a unique identifier
+	     called a "hash" or "commit ID," which is generated based on the commit's content. Commits include
+	      metadata such as the author's name, email, timestamp, and a commit message.
+
+    Branches: Git allows the creation of multiple branches, each representing a separate line of development.
+	      The main branch is often called "master" (though Git itself does not enforce this). 
+	      Developers can create new branches to work on features or bug fixes without affecting the main branch.
+
+    HEAD: The term "HEAD" refers to the latest commit on the currently checked-out branch. 
+	  It's essentially a pointer to the tip of the branch.
+
+    Three-State Model: Git has three main states for files: committed, modified, and staged.
+        Committed: Files are stored in the Git database as part of a commit.
+        Modified: Files have been changed since the last commit but have not been staged for the next commit.
+        Staged: Modified files that have been marked to be included in the next commit snapshot.
+
+    Staging Area (Index): Before creating a commit, you can stage changes in the staging area.
+			 This allows you to choose which changes to include in the next commit.
+			 It provides flexibility in creating well-organized and meaningful commits.
+
+    History and Tracking Changes: Git uses parent-child relationships between commits to form a linear history. 
+				  Each commit points to its parent commit(s), creating a chain of commits. 
+				By examining the differences between commits, Git can reconstruct the changes made over time.
+
+    Merging and Pull Requests: Git supports merging branches together to combine changes. 
+		Pull requests (in platforms like GitHub) provide a way to propose and review code changes before merging them into a main branch.
+
+    Remote Repositories: Git enables collaboration by allowing repositories to be cloned, pushed, and pulled between
+			 remote and local machines. Developers can work on their local copies, sync changes with remote repositories, and collaborate with others.
+
+
+In summary, Git stores versions of files by capturing snapshots of the entire project's state at different times. 
+It uses commits, branches, and a three-state model to manage changes and facilitate collaboration among multiple
+ contributors. This approach makes Git powerful for version control and widely used in software development.

@@ -1,0 +1,3 @@
+Git is a ditributed version control system used to track changes in source code during software development. 
+It is basically use to track changes in computer files while Github is a web-based platform built on top of
+Git that provides a graphical interface for managing repositories, collaborating on projects and hosting codes.

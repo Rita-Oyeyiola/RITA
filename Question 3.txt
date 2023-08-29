@@ -1,0 +1,41 @@
+ The basic workflow for using Git for version control are:
+
+
+    Initialize Repository: Start by creating a new Git repository or cloning an existing one.
+
+
+    Work on Files: Make changes to your project's files. These changes can include adding, modifying, or deleting files.
+
+
+    Stage Changes: Use the git add command to stage the changes you want to include in the next commit.
+
+
+    Commit Changes: Create a commit using the git commit command. This snapshot captures the staged
+                    changes along with a commit message describing what you've done.
+
+
+    Repeat: Continue making changes, staging, and committing as needed.
+
+
+    Update Remote: If you're collaborating with others, push your local commits to a remote repository
+		 using the git push command.
+
+
+    Pull Changes: To incorporate changes from others, use git pull to fetch and merge remote changes into 
+		your local repository.
+
+
+    Resolve Conflicts: If there are conflicting changes, you'll need to manually resolve them.
+
+
+    Branching: You can create branches to work on new features or fixes without affecting
+			 the main codebase. Use git branch to manage branches and git checkout to switch between them.
+
+
+    Merge and Rebase: Merge or rebase your branch's changes into the main branch once they're ready.
+
+
+    Review History: Use git log to view commit history, and tools like git diff to see the differences between commits.
+
+
+     Git offers more advanced features and strategies for various scenarios.

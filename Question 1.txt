@@ -1,0 +1,5 @@
+Git is a ditributed version control system used to track changes in source code during software development. 
+It is basically use to track changes in computer files.
+
+Git allows multiple developers to collaborate on a project while keeping track of changes and maintaining 
+a history of the code base .
